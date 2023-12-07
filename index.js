@@ -68,6 +68,7 @@ const uploadFile = async (img, imgName) => {
             },
             requestBody: {
                 name: imgName,
+                // id Google Drive Folder
                 parents: ["1jT1D0F8a5szyjqQdZMEluYeaju28ahx1"]
             },
             fields: "id,name",
